@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  width: 80%;
+  margin: auto;
+}
+
+.navbar{
+  display: flex;
+  padding-top: 20px;
+
+}
+
+.navbar span{
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+button{
+
+  border: 2px solid pink;
+  border-radius: 10px;
+  background-color: pink;
+  padding: 5px 10px;
+  font-size: 15px;
+}
