@@ -5,7 +5,7 @@
 }
 
 header{
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -15,9 +15,16 @@ header{
 
 }
 
+.navbar img{
+  width: 90px;
+  height: 27px;
+  margin-right: 40px;
+}
+
 .navbar span{
   padding-right: 30px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 button{
@@ -28,15 +35,20 @@ button{
   font-size: 15px;
 }
 
+button:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .box{
   display: inline;
   position: relative;
-  cursor: pointer;
+
 }
 
 .dropdown-menu {
   position: absolute;
-  top:30px;
+  top:20px;
   background-color: white;
   width: 200px;
   display: none;
@@ -51,5 +63,11 @@ button{
 
 .dropdown-menu p {
   padding: 10px 10px;
+
+}
+.dropdown-menu p:hover {
+ cursor: pointer;
+ font-weight: bold;
+ background-color: rgba(112, 112, 112, 0.45);
 
 }
