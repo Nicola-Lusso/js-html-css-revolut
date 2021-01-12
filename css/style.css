@@ -28,3 +28,24 @@ button{
   padding: 5px 10px;
   font-size: 15px;
 }
+
+
+.dropdown-menu {
+  position: absolute;
+  top:60px;
+  background-color: white;
+  width: 200px;
+  display: none;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(68, 67, 69, 0.81);
+}
+
+.dropdown-menu.active{
+ display: block;
+
+}
+
+.dropdown-menu p {
+  padding: 10px 10px;
+
+}
