@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  $('.with-dropdown').hover(function(){
-    
+  $('.box').hover(function(){
+
     $(this).children('.dropdown-menu').toggleClass('active');
   });
 
